@@ -1,12 +1,13 @@
 import React from "react";
 import githubicon from "../assets/giticon.png";
 import linkedin from "../assets/linkedin.png";
+import stack from "../assets/stack.png";
 function Footer() {
   return (
     <>
       <footer className="page-footer red darken-4 custfooter" id="contact">
         <div className="container">
-          <div className="row">
+          <div className="row center">
             <div className="col l6 s12">
               <h5 className="white-text madeby">
                 Made and designed by Zachary Dowd 🤖
@@ -22,6 +23,11 @@ function Footer() {
                 <li>
                   <a href="https://github.com/Zd092718">
                     <img src={githubicon} alt="github icon" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://stackoverflow.com/users/16080764/zack-dowd">
+                    <img src={stack} alt="stack overflow icon" />
                   </a>
                 </li>
               </ul>

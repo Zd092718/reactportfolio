@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail } from "../utils/helpers";
+
 function Contact() {
   const [email, setEmail] = useState("");
   const [userName, setUserName] = useState("");
@@ -39,7 +39,8 @@ function Contact() {
                 name="userName"
                 onChange={handleInputChange}
                 type="text"
-                placeholder="Name"
+                class="validate"
+                required
               />
               <label for="first_name">Name</label>
             </div>
@@ -53,6 +54,7 @@ function Contact() {
                 type="email"
                 class="validate"
                 onChange={handleInputChange}
+                required
               />
               <label for="email">Email</label>
             </div>

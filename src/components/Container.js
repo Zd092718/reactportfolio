@@ -5,6 +5,7 @@ import About from "./About";
 import Nav from "./Nav";
 import Project from "./Project";
 import Contact from "./Contact";
+import Resume from "./Resume";
 function Container() {
   const [currentPage, setCurrentPage] = useState("About");
 
@@ -18,6 +19,9 @@ function Container() {
     }
     if (currentPage === "Contact") {
       return <Contact />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
     }
   };
   const handlePageChange = (page) => setCurrentPage(page);

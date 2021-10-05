@@ -38,6 +38,17 @@ function Nav({ currentPage, handlePageChange }) {
               Contact
             </a>
           </li>
+          <li>
+            <a
+              href="#resume"
+              onClick={() => handlePageChange("Resume")}
+              className={
+                currentPage === "Resume" ? "nav-link active" : "nav-link"
+              }
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </>

@@ -1,43 +1,36 @@
-
-
-
-
-
-
 * {
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body {
-    background-color: #F2D0A4;
+  background-color: #f2d0a4;
 }
 
 /* Targets entire header section */
 header {
-    width: 100%;
-    background-color: #3F826D;
-    box-shadow: 2px 2px 5px gray;
-    border-radius: 25px;
-    margin-top: -40px;
+  width: 100%;
+  background-color: #3f826d;
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 25px;
+  margin-top: -40px;
 }
 
-
-header h1{
-    margin-left: 20px;
-    padding-top: 30px;
+header h1 {
+  margin-left: 20px;
+  padding-top: 30px;
 }
 
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /* Targets nav bar */
-nav li{
-    margin-bottom: 30px;
+nav li {
+  margin-bottom: 30px;
 }
 
 .customnav li {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* nav li:hover {
@@ -46,66 +39,62 @@ nav li{
     margin: 5px;
 } */
 
-header nav ul{
-    list-style-type: none;
+header nav ul {
+  list-style-type: none;
 }
-
 
 /* Targets Projects section */
 #projects {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 /* Resizes project images */
-#project3 img{
-    width: 50%;
-    height: 25%;
-    border: 5px solid black;
-    box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);
+#project3 img {
+  width: 50%;
+  height: 25%;
+  border: 5px solid black;
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.2);
 }
 
-#project2 img{
-    width: 50%;
-    border: 5px solid black;
-    box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);
+#project2 img {
+  width: 50%;
+  border: 5px solid black;
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.2);
 }
 
 #project1 img {
-    width: 100%;
-    height: 50%;
-    border: 5px solid black;
-    box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);
+  width: 100%;
+  height: 50%;
+  border: 5px solid black;
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.2);
 }
 /* Targets About section */
-#about  {
-    padding: 30px;
-    margin-bottom: 30px;
-    color: white;
-    font-size: 18px;
+#about {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 18px;
 }
 
-
-
 #about img {
-    width: 10%;
-    margin: 20px;
-    margin-bottom: -20px;
-    border-radius: 25px;
-    display: inline-block;
-    box-shadow: 10px 5px 5px rgba(0, 0, 255, .2);
+  width: 10%;
+  margin: 20px;
+  margin-bottom: -20px;
+  border-radius: 25px;
+  display: inline-block;
+  box-shadow: 10px 5px 5px rgba(0, 0, 255, 0.2);
 }
 
 /* Targets Contact Me section */
 #contact {
-    background-color: #C03221;
-    margin-top: 20px;
-    padding: 30px;
+  background-color: #c03221;
+  margin-top: 20px;
+  padding: 30px;
 }
 
 footer {
-    padding: 30px;
-    text-align: center;
+  padding: 30px;
+  text-align: center;
 }
-
 
 /* @media screen and (max-width: 900px) {
     #projects img{
@@ -131,9 +120,9 @@ footer {
 } */
 
 .madeby {
-    margin-top: 70px;
+  margin-top: 40px;
 }
 
 .custfooter li {
-    font-size: 18px;
+  font-size: 18px;
 }

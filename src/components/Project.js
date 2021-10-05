@@ -8,7 +8,7 @@ function Project() {
   return (
     <>
       <section id="projects">
-        <div className="row center" id="project1">
+        <div className="row" id="project1">
           <div className="col s12 m6">
             <div className="card blue-grey darken-1">
               <div className="card-content white-text">
