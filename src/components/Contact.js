@@ -22,14 +22,10 @@ function Contact() {
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName("");
     setEmail("");
+    setMessage("");
   };
   return (
     <div>
