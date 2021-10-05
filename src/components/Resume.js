@@ -10,7 +10,9 @@ function Resume() {
     <>
       <section id="resume" className="blue-grey darken-1">
         <h2>Resume</h2>
-        <a href="../assets/resume.pdf">Download Resume Here</a>
+        <a href="https://docs.google.com/document/d/e/2PACX-1vTK6cpP6mXAFDg2sWH3_FiF7yt4QyiFanLy4_PruKJLe2CzEUlcfQ_cKQrOm2p6hQrTCmh9V0f6OuFG/pub">
+          Click Here to view resume
+        </a>
         <br />
         <br />
         <div id="proficiencies">
