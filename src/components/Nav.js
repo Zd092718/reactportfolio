@@ -1,18 +1,42 @@
 import React from "react";
 
-function Nav() {
+function Nav({ currentPage, handlePageChange }) {
   return (
     <>
       <nav className="red darken-4 customnav">
         <ul>
           <li>
-            <a href="#projects">Projects</a>
+            <a
+              href="#about"
+              onClick={() => handlePageChange("About")}
+              className={
+                currentPage === "About" ? "nav-link active" : "nav-link"
+              }
+            >
+              About
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a
+              href="#projects"
+              onClick={() => handlePageChange("Projects")}
+              className={
+                currentPage === "Projects" ? "nav-link active" : "nav-link"
+              }
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact">Contacts</a>
+            <a
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
