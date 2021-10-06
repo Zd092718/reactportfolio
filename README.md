@@ -30,7 +30,8 @@ To see the code for the site:
 
 ### Preview Image
 
-![screenshot of page](./assets/portfolioscreenshot.png)
+![screenshot of about me section](./src/assets/portfolio1.png)
+![screenshot of projects section](./src/assets/portfolio2.png)
 
 ## Contact
 
