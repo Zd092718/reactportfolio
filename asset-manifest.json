@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.d29d0cca.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.0a9e3ba2.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.0a9e3ba2.chunk.js.map",
+    "main.css": "/reactportfolio/static/css/main.2414004f.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.c5a56328.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.c5a56328.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.347eb9d2.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.347eb9d2.js.map",
     "static/js/2.1bbcede1.chunk.js": "/reactportfolio/static/js/2.1bbcede1.chunk.js",
     "static/js/2.1bbcede1.chunk.js.map": "/reactportfolio/static/js/2.1bbcede1.chunk.js.map",
     "index.html": "/reactportfolio/index.html",
-    "static/css/main.d29d0cca.chunk.css.map": "/reactportfolio/static/css/main.d29d0cca.chunk.css.map",
+    "static/css/main.2414004f.chunk.css.map": "/reactportfolio/static/css/main.2414004f.chunk.css.map",
     "static/js/2.1bbcede1.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.1bbcede1.chunk.js.LICENSE.txt",
     "static/media/codingquizscreenshot.c34920fb.png": "/reactportfolio/static/media/codingquizscreenshot.c34920fb.png",
-    "static/media/dashboard.3d5f39c8.png": "/reactportfolio/static/media/dashboard.3d5f39c8.png",
     "static/media/empdb.a05731d2.gif": "/reactportfolio/static/media/empdb.a05731d2.gif",
+    "static/media/fitnesschart.af5b1517.png": "/reactportfolio/static/media/fitnesschart.af5b1517.png",
     "static/media/notetaker.b9819dad.png": "/reactportfolio/static/media/notetaker.b9819dad.png",
     "static/media/selfportrait.aec2cc90.jpg": "/reactportfolio/static/media/selfportrait.aec2cc90.jpg",
     "static/media/tracker.ba1f9989.png": "/reactportfolio/static/media/tracker.ba1f9989.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.347eb9d2.js",
     "static/js/2.1bbcede1.chunk.js",
-    "static/css/main.d29d0cca.chunk.css",
-    "static/js/main.0a9e3ba2.chunk.js"
+    "static/css/main.2414004f.chunk.css",
+    "static/js/main.c5a56328.chunk.js"
   ]
 }
