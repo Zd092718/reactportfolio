@@ -6,18 +6,18 @@
 
 ## About the project
 
-This is my personal portfolio site that will house all of my projects from the SMU bootcamp that I am participating in. I will be updating this portfolio regularly throughout the course.
+This is my personal portfolio site that contains projects and work from the SMU bootcamp that I am participating in.
 
 ### How to view project
 
-To view this project, simply go to https://zd092718.github.io/zdportfolio/ to view the finished product.
+To view this project, simply go to https://zd092718.github.io/reactportfolio/ to view the finished product.
 
 To see the code for the site:
 
 - Clone the repo
 
   ```sh
-  git clone https://github.com/Zd092718/zdportfolio.git
+  git clone git@github.com:Zd092718/reactportfolio.git
   ```
 
 ### Built With
@@ -25,6 +25,8 @@ To see the code for the site:
 - HTML5
 - CSS3
 - Materialize
+- React.js
+- Javascript
 
 ### Preview Image
 
@@ -32,6 +34,6 @@ To see the code for the site:
 
 ## Contact
 
-Zachary Dowd - zdowd2796@gmail.com
+Zachary Dowd - zacharyd2796@zohomail.com
 
-Project Link - https://github.com/Zd092718/zdportfolio
+Project Link - https://github.com/Zd092718/reactportfolio
