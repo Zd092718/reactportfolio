@@ -29,6 +29,18 @@ function Contact() {
   };
   return (
     <div>
+      <section id="about" className="blue-grey darken-1">
+        <h2>Contact Information</h2>
+        <p>
+          Email:{" "}
+          <a href="mailto: zacharyd2796@zohomail.com">
+            zacharyd2796@zohomail.com
+          </a>
+        </p>
+        <p>
+          Phone Number: <a href="tel: ‪(720) 316-8237‬">‪(720) 316-8237‬</a>
+        </p>
+      </section>
       <div class="row">
         <form class="col s12">
           <div class="row">

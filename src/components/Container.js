@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import About from "./About";
 import Nav from "./Nav";
-import Project from "./Project";
+import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Resume from "./Resume";
 function Container() {
@@ -14,8 +14,8 @@ function Container() {
     if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === "Project") {
-      return <Project />;
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
     }
     if (currentPage === "Contact") {
       return <Contact />;

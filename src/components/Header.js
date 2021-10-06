@@ -3,7 +3,7 @@ function Header() {
   return (
     <>
       <header>
-        <h1>Zachary Dowd Personal Portfolio</h1>
+        <h1>Zachary Dowd</h1>
       </header>
     </>
   );

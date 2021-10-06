@@ -3,9 +3,9 @@ import quiz from "../assets/codingquizscreenshot.png";
 import employeedb from "../assets/empdb.gif";
 import notetaker from "../assets/notetaker.png";
 import vernaculearn from "../assets/vernaculearnscreenshot.png";
-import dashboard from "../assets/dashboard.png";
+import workout from "../assets/fitnesschart.png";
 import tracker from "../assets/tracker.png";
-function Project() {
+function Portfolio() {
   return (
     <>
       <section id="projects">
@@ -50,14 +50,14 @@ function Project() {
           <div className="col s6 m6">
             <div className="card blue-grey darken-1">
               <div className="card-content white-text" id="project2">
-                <span className="card-title">Weather Dashboard</span>
-                <img src={dashboard} alt="Weather Dashboard" />
+                <span className="card-title">Workout Tracker</span>
+                <img src={workout} alt="Workout Tracker" />
               </div>
               <div className="card-action">
-                <a href="https://zd092718.github.io/weatherdashboardhw/">
+                <a href="https://shielded-brook-90200.herokuapp.com/?id=6158f165bb5c360016a17354">
                   Application Link
                 </a>
-                <a href="https://github.com/Zd092718/weatherdashboardhw">
+                <a href="https://github.com/Zd092718/workouttracker">
                   Github Link
                 </a>
               </div>
@@ -115,4 +115,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Portfolio;
